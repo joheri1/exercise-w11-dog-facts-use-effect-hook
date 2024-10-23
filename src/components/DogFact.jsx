@@ -7,7 +7,7 @@ export const DogFact = ({ dogFact }) => {
       {dogFact ? ( // Check if the dogFact prop is truthy (not null or undefined)
         <p>{dogFact}</p> // If dogFact exists, render it inside a <p> tag
       ) : (
-        <p>Loading...</p> // Fallback: Render "Loading..." if dogFact is missing (this is unlikely to occur since the App handles loading)
+        <p>Loading...</p> // Fallback: Render "Loading..." if dogFact is missing 
       )}
     </div>
   )
